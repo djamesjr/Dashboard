@@ -1,0 +1,247 @@
+.wholegrid{
+    
+display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows:50px 100px 100px 500px;
+  width: 100%;
+  height: 100%;
+  color: #688399;
+  font-family: "noto sans" , sans-serif; 
+}
+  /* <!-- Left column navigation stuff starts here --> */
+
+.leftcolumn{
+    background-color: #EB322B;
+    color: white;
+    grid-row: span 4;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.nav { 
+   
+    color:white;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+p.contact { 
+    
+    color:white;
+    font-size: 0.85rem;
+}
+.colbottom{
+    text-align: center;
+}
+.colbottom img{
+    border-radius: 70%;
+    width: 75%;
+    border: solid 2px #688399;
+}
+
+/* top row with name and stuff start here */
+
+.toprow{
+    grid-column: span 4;
+    border-radius: 10px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: 600;
+    font-size:1.75rem;
+}
+
+
+
+.namewithpic{
+    font-weight: 600;
+    font-size:0.85rem;
+}
+.toprow figure{
+    border-radius: 70%;
+    width: 20%;
+    border: solid 2px #688399;
+}
+
+
+/* welcome stuff start here */
+.welcome{
+    display: flex;
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    grid-column: span 4;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+.welcomeleft{
+    margin: 10px 0 0 10px;
+}
+.one {
+    
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.two {
+    
+    font-size: 0.95rem;
+    font-weight: lighter;
+ 
+}
+
+.welcomeright{
+    display: grid;
+    /* justify-content: center; */
+    justify-items: center;
+    /* align-content: center; */
+    /* align-items: center; */
+    margin: 15px 50px 0 0;
+
+}
+.three {
+   
+    font-size: 1rem;
+    justify-content: end;
+    font-weight: 500;
+    
+
+}
+.four {
+   
+    font-size: 1.50rem;
+    font-weight: bold;
+
+}
+
+/* project stuff start here */
+.projects{
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    
+
+}
+.numbers {
+    
+    font-style: 900;
+    font-size: 3rem;
+}
+
+/* progress stuff start here */
+.progress{
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+    margin: 0;
+}
+
+/* completed stuff start here */
+.completed{
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+}
+
+/* notstarted stuff start here */
+.notstarted{
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    border-radius: 10px;
+    display: grid;
+    justify-items: center;
+}
+
+/* calendar stuff start here */
+.calendar{
+    border: solid 4px #688399;
+    grid-column: span 2;
+    border-radius: 10px;
+}
+iframe{
+    display:flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* current stuff start here */
+.current{
+    display: flex;
+    border: solid 4px #688399;
+    background-color: #688399;
+    color: white;
+    grid-column: span 2;
+    border-radius: 10px;
+    justify-content: space-around;
+
+}
+.current h4{
+    font-size: 1rem;
+    
+}
+
+.currentproleft{
+    display:grid;
+    font-weight: 800;
+    
+}
+
+.currentproright{
+display: grid;
+font-weight: 100;
+}
+
+/* Solo Cal */
+.solocal{
+    background-color: #EB322B;
+    color: white;
+    grid-row: span 4;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: space-between;  */
+}
+.dogsoccer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-items: stretch;
+    width: 50%;
+    height: 50%;
+}
+.spritewalk{
+
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 50%;
+}
+.propro{
+ 
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    width: 25%;
+    height: 50%;
+}

@@ -1,0 +1,34 @@
+.leftcolumn{
+    background-color: #EB322B;
+    color: white;
+    grid-row: span 4;
+    border-radius: 10px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.nav { 
+   
+    color:white;
+    text-align: left;
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+
+p.contact { 
+    
+    color:white;
+    font-size: 0.85rem;
+}
+.colbottom{
+    text-align: center;
+}
+.colbottom img{
+    border-radius: 70%;
+    width: 75%;
+    border: solid 2px #688399;
+}
